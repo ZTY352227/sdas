@@ -1,0 +1,399 @@
+
+//main.c
+/**********************************
+
+**********************************/
+
+#include "common.h"
+#include "gd32e503v_eval.h"
+#include "gd32e50x_rcu.h"
+#include "gd32e50x_usart.h"
+#include "gd32e50x_fmc.h"
+#include "gd32e50x_bkp.h"
+//#include <stdlib.h>
+//#include <stdio.h>
+//#include "core_cmFunc.h"
+
+
+#define  AC_LED2  gpio_bit_set(GPIOC, GPIO_PIN_12)
+#define  AC_LED2_OFF  gpio_bit_reset(GPIOC, GPIO_PIN_12)
+#define  TOGGLE_AC_LED2  gpio_bit_write(GPIOC, GPIO_PIN_12, 1-gpio_output_bit_get(GPIOC, GPIO_PIN_12))
+
+#define  PD_LED1  gpio_bit_set(GPIOC, GPIO_PIN_11)
+#define  PD_LED1_OFF  gpio_bit_reset(GPIOC, GPIO_PIN_11)
+#define  TOGGLE_PD_LED1  gpio_bit_write(GPIOC, GPIO_PIN_11, 1-gpio_output_bit_get(GPIOC, GPIO_PIN_11))
+
+#define BOOT_VERSION       10     //BOOT版本  V1.0
+#define BOOT_FLASH_SIZE    (256 - 16 - 8 - 8)     //芯片FLASH大小，KB为单位  16K为BOOT空间 8K为电池信息备份 8K为系统配置信息空间
+#define DEVICE_ID          0x04    //
+
+#define MAIN_USER_FLASH_BEGIN 0x08004000  //前16k留给boot程序使用
+#define MAIN_USER_FLASH_END	  0x08038000
+
+
+
+
+#define PAGE_SIZE 64           //64  256 
+#define FLASH_PAGE_SIZE 8192    //2048   8192
+
+uint8_t g_WriteEnable=0;
+uint8_t g_Buffer[PAGE_SIZE*2];
+uint32_t g_Address;
+
+void RCC_Configuration(void)
+{
+    //HCLK=72M  PCLK1(APB1时钟)=36M  PCLK2(APB2时钟)=72M
+    //以上由main函数前执行的SystemInit函数配置好
+
+    //GPIOA GPIOB时钟允许
+    rcu_periph_clock_enable(RCU_GPIOA);
+    rcu_periph_clock_enable(RCU_GPIOB);
+    rcu_periph_clock_enable(RCU_GPIOC);
+
+    //禁止JTAG,SWJ
+    //GPIO_PinRemapConfig(GPIO_Remap_SWJ_Disable , ENABLE);
+}
+
+////看门狗开启
+//void IwdgOpen(void)
+//{
+//	//允许写相关寄存器
+//	IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);
+//	//设置IWDG时钟: 40KHz(LSI) / 256 = 156Hz
+//	IWDG_SetPrescaler(IWDG_Prescaler_256);
+//	//设置重新计数值为 156 该参数允许取值范围为 0–0x0FFF
+//	IWDG_SetReload(156);
+//	//IWDG计数器复位
+//	IWDG_ReloadCounter();
+//	//使能IWDG (the LSI oscillator will be enabled by hardware)
+//	IWDG_Enable();
+//}
+
+typedef void (*RESET_FUNCTION )(void);
+
+
+#define app_address    0x08004000
+
+typedef  void (*pFunction)(void);
+pFunction jump_To_application;
+
+uint32_t jump_address = 0;
+
+void ExecApp(void)
+{
+    uint32_t jump_addr=*((__IO uint32_t *)(app_address+4));
+    RESET_FUNCTION Reset=(RESET_FUNCTION)jump_addr;
+
+    AC_LED2_OFF;
+    PD_LED1_OFF;
+    //dma_channel_disable(DMA0, DMA_CH4);
+    jump_address = *(__IO uint32_t*)(app_address + 4);               //用户代码区第二个字存储为APP程序起始地址（APP程序复位向量指针）
+    jump_To_application = (pFunction) jump_address;
+    __set_MSP(*(__IO uint32_t*)app_address);                         //初始化APP程序堆栈指针(用户代码区的第一个字用于存放栈顶地址)
+    jump_To_application();                                           //设置PC指针为APP程序的复位向量地址
+    while(1);
+}
+
+//数据包校验
+uint8_t CheckSum(uint8_t *buf,uint16_t len)
+{
+    uint16_t i,ret=0;
+    for(i=0; i<len; i++)
+        ret+=buf[i];
+    return ret;
+}
+
+//设置地址
+void SetPageAddr(void)
+{
+    uint8_t i;
+
+    if(BootComRecv(g_Buffer,5,1000)==0)
+    {
+        BootComSendByte(1);//接收超时
+        return ;
+    }
+
+    if(CheckSum(g_Buffer,4)!=g_Buffer[4])
+    {
+        BootComSendByte(2);//校验错误
+        return ;
+    }
+
+    for(i=0; i<4; i++)
+    {
+        g_Address<<=8;		//提取APP写入起始地址
+        g_Address+=g_Buffer[i];
+    }
+
+    if((g_Address < app_address) || (g_Address >= MAIN_USER_FLASH_END))
+    {
+        BootComSendByte(3);//地址错误
+        return ;
+    }
+
+    g_Address=app_address; //默认值, 起始地址直接赋值
+    BootComSendByte(0);
+}
+
+//写入一个数据包
+void WritePage(void)
+{
+    uint16_t i;
+    uint32_t *p;
+
+    if(BootComRecv(g_Buffer,PAGE_SIZE+1,1000)==0)
+    {
+        BootComSendByte(1);//接收超时
+        return ;
+    }
+
+    if(CheckSum(g_Buffer,PAGE_SIZE)!=g_Buffer[PAGE_SIZE])
+    {
+        BootComSendByte(2);//校验错误
+        return ;
+    }
+
+    if(g_WriteEnable==0xAA)
+    {
+        if(g_Address % FLASH_PAGE_SIZE == 0) //如果是整页
+            fmc_page_erase(g_Address);
+        p=(uint32_t *)g_Buffer;
+        for (i = 0; i < PAGE_SIZE; i+=4,p++)
+            fmc_word_program(g_Address+i, *p);
+    }
+    else
+    {
+        BootComSendByte(3);//没有连接，不允许写
+        return ;
+    }
+
+    g_Address+=PAGE_SIZE;
+    BootComSendByte(0);//成功完成
+}
+
+//读一包数据
+void ReadPage(void)
+{
+    uint16_t i;
+    uint8_t *p;
+    p=(uint8_t *)(g_Address);
+
+    for(i=0; i<PAGE_SIZE; i++)
+    {
+        g_Buffer[i]=p[i];
+        BootComSendByte(g_Buffer[i]);
+    }
+
+    BootComSendByte(CheckSum(g_Buffer,PAGE_SIZE));
+    g_Address+=PAGE_SIZE;
+}
+
+//连接:0xAA + 'BOOT' + 0x34
+uint8_t Connect(uint32_t wait_time)
+{
+    if(BootComRecv(g_Buffer,5,wait_time)==0)
+        return 1;
+
+    if((g_Buffer[0]=='B')&&(g_Buffer[1]=='O')&&(g_Buffer[2]=='O')&&(g_Buffer[3]=='T')&&(g_Buffer[4]==0x34))
+    {
+        g_Buffer[0]=BOOT_CONNECT;
+        g_Buffer[1]=BOOT_VERSION;
+        g_Buffer[2]=0x08;//芯片的其实地址 0x08000000
+        g_Buffer[3]=0x00;
+        g_Buffer[4]=0x00;
+        g_Buffer[5]=0x00;
+        g_Buffer[6]=BOOT_FLASH_SIZE;//可用FLASH空间大小
+        g_Buffer[7]=DEVICE_ID;//器件ID
+        g_Buffer[8]=0; //协议版本为v0
+        g_Buffer[9]=CheckSum(g_Buffer+1,8);
+        BootComSend(g_Buffer,10);
+
+        g_WriteEnable=0xAA;
+        fmc_unlock();
+        return 0;
+    }
+
+    return 1;
+}
+
+
+uint32_t updateTimeOut = 0;
+
+int main(void)
+{
+    uint8_t tmp;
+    uint16_t bkp;
+
+    nvic_vector_table_set(NVIC_VECTTAB_FLASH, 0x0);
+    SEI();
+
+    /* 辅助电源使能 */
+//    rcu_periph_clock_enable(RCU_GPIOB);
+//    gpio_init(GPIOB, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_12);
+//    gpio_bit_reset(GPIOB, GPIO_PIN_12);
+
+    //升级指示灯
+    rcu_periph_clock_enable(RCU_GPIOC);
+    gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_11|GPIO_PIN_12);
+    AC_LED2_OFF;
+    PD_LED1_OFF;
+
+    RCC_Configuration();
+
+    InitTick();//延时时钟
+
+    BKP_int();
+    /* configure EVAL_COM0 */
+    gd_eval_com_init(EVAL_COM0);//通信串口
+
+    bkp = bkp_read_data(BKP_DATA_0);
+
+    //用户程序不为空
+    //if(((*(__IO uint32_t*)app_address) & 0x2FFE0000 ) == 0x20000000 && bkp == 0x1234)
+    if(bkp == 0x1234)
+    {
+        while(1)
+        {
+            tmp=BootComRecv(g_Buffer,1,30000);//等待30S连接
+            if(tmp==0)
+            {
+                bkp_write_data(BKP_DATA_0,0);
+                ExecApp();
+            }
+            if(g_Buffer[0]!=BOOT_CONNECT)//收到连接指令
+                continue;
+
+            if(Connect(100))//接收连接信息，校验
+            {
+                bkp_write_data(BKP_DATA_0,0);
+                ExecApp();//校验不通过，转APP
+            }
+            else
+            {
+                AC_LED2;//连接上，亮AC灯
+                break;
+            }
+        }
+    }
+    else if(((*(__IO uint32_t*)app_address) & 0x2FFE0000 ) == 0x20000000)
+    {
+        ExecApp();
+    }
+    else
+    {
+    }
+
+    tmp = 0;
+    updateTimeOut = 1;
+    while(1)//进入此循环，已经连接上
+    {
+
+        if(updateTimeOut >= 60000 || (tmp == BOOT_READ_PAGE && updateTimeOut >= 500))//连接后，没有下发升级文件，超时后转到APP
+        {
+            updateTimeOut = 0;
+            bkp_write_data(BKP_DATA_0,0);
+            ExecApp();
+        }
+
+
+        if(BootComRecv(&tmp,1,100)==0)
+            continue;
+
+
+        switch(tmp)
+        {
+        case BOOT_SET_ADDR://
+            updateTimeOut = 0;
+            TOGGLE_AC_LED2;//设置地址，AC灯闪烁
+            SetPageAddr();
+            break;
+
+        case BOOT_WRITE_PAGE://
+            updateTimeOut = 1;
+            TOGGLE_AC_LED2;//写数据，AC灯闪烁
+            WritePage();
+            break;
+
+        case BOOT_READ_PAGE://
+            updateTimeOut = 1;
+            AC_LED2_OFF;
+            TOGGLE_PD_LED1;//读和校验，PD灯闪烁
+            ReadPage();
+            break;
+
+        case BOOT_CONNECT:
+            updateTimeOut = 0;
+            Connect(1000);
+            break;
+
+        case BOOT_EXEC_APP:
+
+            updateTimeOut = 0;
+
+            if(BootComRecv(g_Buffer,1,1000))
+            {
+                bkp_write_data(BKP_DATA_0,0);
+
+                //if(!g_Buffer[0])
+                ExecApp();
+            }
+            break;
+
+        default:
+            DelayMs(1000);
+            break;
+        }
+
+
+
+    }
+}
+
+
+
+//int main(void)
+//{
+//    systick_config();
+
+//    /* enable the LEDs clock */
+//    rcu_periph_clock_enable(RCU_GPIOC);
+//    rcu_periph_clock_enable(RCU_GPIOE);
+
+//    /* configure LEDs GPIO port */
+//    gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_0 | GPIO_PIN_2);
+//    gpio_init(GPIOE, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_0 | GPIO_PIN_1);
+
+//    /* reset LEDs GPIO pin */
+//    gpio_bit_reset(GPIOC, GPIO_PIN_0| GPIO_PIN_2);
+//    gpio_bit_reset(GPIOE, GPIO_PIN_0| GPIO_PIN_1);
+
+//    while(1){
+//        /* turn on LED1 */
+//        gpio_bit_set(GPIOC, GPIO_PIN_0);
+//        /* insert 200 ms delay */
+//        delay_1ms(200);
+
+//        /* turn on LED2 */
+//        gpio_bit_set(GPIOC, GPIO_PIN_2);
+//        /* insert 200 ms delay */
+//        delay_1ms(200);
+
+//        /* turn on LED3 */
+//        gpio_bit_set(GPIOE, GPIO_PIN_0);
+//        /* insert 200 ms delay */
+//        delay_1ms(200);
+
+//        /* turn on LED4 */
+//        gpio_bit_set(GPIOE, GPIO_PIN_1);
+//        /* insert 200 ms delay */
+//        delay_1ms(200);
+
+//        /* turn off LEDs */
+//        gpio_bit_reset(GPIOC, GPIO_PIN_0 | GPIO_PIN_2);
+//        gpio_bit_reset(GPIOE, GPIO_PIN_0 | GPIO_PIN_1);
+
+//        /* insert 200 ms delay */
+//        delay_1ms(200);
+//    }
+//}

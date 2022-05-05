@@ -1,0 +1,1532 @@
+Dependencies for Project 'GD32E503V_EVAL', Target 'GD32E503V_EVAL': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\main.c)(0x62724B28)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/main.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\.\systick.h)(0x61CE7EE3)
+I (..\DEVICE\uart.h)(0x62614E95)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (..\.\invertor.h)(0x6271DCBB)
+I (..\.\gd32e50x_it.h)(0x62620010)
+I (..\.\bms.h)(0x6271DC0C)
+I (..\DEVICE\timer.h)(0x6262000F)
+I (..\.\key.h)(0x626616D8)
+I (..\DEVICE\gpio.h)(0x6271DA31)
+I (..\DEVICE\pwm.h)(0x626611EA)
+I (..\.\ht1621b.h)(0x627244C0)
+I (..\.\buzzer.h)(0x6271DB3F)
+F (..\gd32e50x_it.c)(0x626B9C31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_it.o -MD)
+I (..\.\gd32e50x_it.h)(0x62620010)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\.\systick.h)(0x61CE7EE3)
+I (..\.\invertor.h)(0x6271DCBB)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603507D0)
+I (..\.\bms.h)(0x6271DC0C)
+F (..\systick.c)(0x6267A9CE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/systick.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\.\systick.h)(0x61CE7EE3)
+F (..\invertor.c)(0x62722AD8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/invertor.o -MD)
+I (..\.\invertor.h)(0x6271DCBB)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\DEVICE\uart.h)(0x62614E95)
+I (..\.\ht1621b.h)(0x627244C0)
+F (..\bms.c)(0x62722896)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/bms.o -MD)
+I (..\.\bms.h)(0x6271DC0C)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\DEVICE\uart.h)(0x62614E95)
+I (..\.\ht1621b.h)(0x627244C0)
+F (..\key.c)(0x6271F2E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/key.o -MD)
+I (..\.\key.h)(0x626616D8)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\.\systick.h)(0x61CE7EE3)
+I (..\DEVICE\gpio.h)(0x6271DA31)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\.\buzzer.h)(0x6271DB3F)
+I (..\.\ht1621b.h)(0x627244C0)
+F (..\fan.c)(0x626794E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/fan.o -MD)
+I (..\.\fan.h)(0x626794E7)
+F (..\ht1621b.c)(0x62724B28)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/ht1621b.o -MD)
+I (..\.\ht1621b.h)(0x627244C0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\math.h)(0x603507CA)
+F (..\buzzer.c)(0x6271DCCE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/buzzer.o -MD)
+I (..\.\buzzer.h)(0x6271DB3F)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+F (..\DEVICE\uart.c)(0x6272234F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/uart.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\DEVICE\uart.h)(0x62614E95)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+I (..\.\invertor.h)(0x6271DCBB)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\.\bms.h)(0x6271DC0C)
+F (..\DEVICE\timer.c)(0x6267C287)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/timer.o -MD)
+I (..\DEVICE\timer.h)(0x6262000F)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\DEVICE\gpio.c)(0x62675CDE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gpio.o -MD)
+I (..\DEVICE\gpio.h)(0x6271DA31)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\DEVICE\pwm.c)(0x62724B09)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/pwm.o -MD)
+I (..\DEVICE\pwm.h)(0x626611EA)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+F (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Source\system_gd32e50x.c)(0x6267A6E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/system_gd32e50x.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_adc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_adc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_bkp.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_bkp.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_cmp.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_cmp.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_cmp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_crc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_crc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_ctc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_ctc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_dac.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_dac.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_dbg.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_dbg.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_dma.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_dma.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_enet.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_enet.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_enet.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_exmc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_exmc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_exti.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_exti.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_fmc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_fmc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_fwdgt.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_fwdgt.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_gpio.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_gpio.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_i2c.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_i2c.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_misc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_misc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_pmu.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_pmu.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_rcu.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_rcu.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_rtc.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_rtc.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_sdio.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_sdio.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_shrtimer.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_shrtimer.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_spi.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_spi.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_sqpi.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_sqpi.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_timer.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_timer.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_tmu.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_tmu.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_tmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_usart.c)(0x626B70E8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_usart.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_wwdgt.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_wwdgt.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Source\gd32e50x_can.c)(0x61CE7EA6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e50x_can.o -MD)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x603507D0)
+F (..\..\..\Utilities\gd32e503v_eval.c)(0x625D5337)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../. -I ../../../../GD32E50x_Firmware_Library/CMSIS -I ../../../../GD32E50x_Firmware_Library/CMSIS/GD/GD32E50x/Include -I ../../../../GD32E50x_Firmware_Library/GD32E50x_standard_peripheral/Include -I ../../../Utilities -I ../DEVICE-I./RTE/_GD32E503V_EVAL-I"E:/Program Files/Keil_v5/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include"-I"E:/Program Files/Keil_v5/Arm/Packs/GigaDevice/GD32E50x_DFP/1.3.1/Device/Include"-D__UVISION_VERSION="536" -D_RTE_ -DGD32E50x_HD -D_RTE_ -DGD32E50X -DGD32E50X_HD -DUSE_STDPERIPH_DRIVER-o ./output/gd32e503v_eval.o -MD)
+I (..\..\..\Utilities\gd32e503v_eval.h)(0x625D5337)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\gd32e50x.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\core_cm33.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_version.h)(0x61CE7EA4)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\cmsis_compiler.h)(0x61CE7EA4)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D3E8E2)
+I (E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv8.h)(0x60D3E8E2)
+I (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Include\system_gd32e50x.h)(0x61CE7EA4)
+I (..\.\gd32e50x_libopt.h)(0x61CE7EE3)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_adc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_bkp.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_can.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_crc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_ctc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dac.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dbg.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_dma.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_exti.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fmc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_fwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_gpio.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_shrtimer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_i2c.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_misc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_pmu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rcu.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_rtc.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_spi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_timer.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_usart.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_wwdgt.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sqpi.h)(0x61CE7EA5)
+I (..\..\..\..\GD32E50x_Firmware_Library\GD32E50x_standard_peripheral\Include\gd32e50x_sdio.h)(0x61CE7EA5)
+F (..\readme.txt)(0x61CE7EE3)()
+F (..\..\..\..\GD32E50x_Firmware_Library\CMSIS\GD\GD32E50x\Source\ARM\startup_gd32e50x_hd.s)(0x61CE7EA4)(--cpu=Cortex-M33 --fpu=FPv5-SP -g --pd "__MICROLIB SETA 1"-I.\RTE\_GD32E503V_EVAL-I"E:\Program Files\Keil_v5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"E:\Program Files\Keil_v5\Arm\Packs\GigaDevice\GD32E50x_DFP\1.3.1\Device\Include"--pd "__UVISION_VERSION SETA 536"--pd "_RTE_ SETA 1"--pd "GD32E50x_HD SETA 1"--pd "_RTE_ SETA 1"--list .\list\startup_gd32e50x_hd.lst--xref -o .\output\startup_gd32e50x_hd.o--depend .\output\startup_gd32e50x_hd.d)

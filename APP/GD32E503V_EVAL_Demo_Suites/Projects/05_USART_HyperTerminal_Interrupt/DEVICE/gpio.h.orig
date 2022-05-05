@@ -1,0 +1,14 @@
+#ifndef __GPIO_H
+#define __GPIO_H
+
+#include "gd32e503v_eval.h"
+
+#define  GPIO_12V_ON gpio_bit_set(GPIOB, GPIO_PIN_6)
+#define  GPIO_12V_OFF gpio_bit_set(GPIOB, GPIO_PIN_6)
+
+#define	
+
+
+void user_gpio_init(void);
+
+#endif

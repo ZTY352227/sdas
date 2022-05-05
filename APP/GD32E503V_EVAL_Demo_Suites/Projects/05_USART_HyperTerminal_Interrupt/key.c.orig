@@ -1,0 +1,99 @@
+#include "key.h"
+#include "gd32e50x.h"
+#include "systick.h"
+
+void key_init(void)
+{
+    //DC KEY ON
+    /* enable the key   GPIO clock */
+    rcu_periph_clock_enable(RCU_GPIOD);
+    /* configure button pin as input */
+    gpio_init(GPIOD, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_2);
+
+    //USB KEY ON
+    /* enable the key   GPIO clock */
+    rcu_periph_clock_enable(RCU_GPIOD);
+    /* configure button pin as input */
+    gpio_init(GPIOD, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_3);
+
+    //AC KEY ON
+    /* enable the key   GPIO clock */
+    rcu_periph_clock_enable(RCU_GPIOD);
+    /* configure button pin as input */
+    gpio_init(GPIOD, GPIO_MODE_IN_FLOATING, GPIO_OSPEED_50MHZ, GPIO_PIN_4);
+}
+
+void KEY_Handel(void)
+{
+	static uint8_t dc_flag = 0;
+	static uint8_t usb_flag = 0;
+	static uint8_t ac_flag = 0;
+    //DC按键处理事件
+    /* check whether the button is pressed */
+    if(RESET == DC_KEY)
+    {
+        delay_1ms(100);  //加这个延时是否会有问题？
+
+        /* check whether the button is pressed */
+        if(RESET == DC_KEY)
+        {
+            //加入处理事件
+			if(dc_flag == 0)
+			{
+				gpio_bit_set(GPIOB, GPIO_PIN_6);// 12V 输出开 
+				dc_flag = 1;
+			}
+			else
+			{
+				gpio_bit_reset(GPIOB, GPIO_PIN_6);// 12V 输出关
+				dc_flag = 0;
+			}
+        }
+
+        while(RESET == DC_KEY);
+    }
+
+    //USB按键处理事件
+    /* check whether the button is pressed */
+    if(RESET == USB_KEY)
+    {
+        delay_1ms(100);  //加这个延时是否会有问题？
+
+        /* check whether the button is pressed */
+        if(RESET == USB_KEY)
+        {
+            //加入处理事件
+			if(usb_flag == 0)
+			{
+				gpio_bit_set(GPIOB, GPIO_PIN_7);// USB 输出开 
+				gpio_bit_set(GPIOD, GPIO_PIN_1);
+				gpio_bit_set(GPIOB, GPIO_PIN_9);// PD1 输出开
+				gpio_bit_set(GPIOB, GPIO_PIN_8);// PD8 输出开 				
+				usb_flag = 1;
+			}
+			else
+			{
+				gpio_bit_reset(GPIOB, GPIO_PIN_7);// USB 输出关
+				gpio_bit_reset(GPIOD, GPIO_PIN_1);
+				gpio_bit_set(GPIOB, GPIO_PIN_9);// PD1 输出开
+				gpio_bit_set(GPIOB, GPIO_PIN_8);// PD8 输出开 
+				usb_flag = 0;
+			}
+        }
+        while(RESET == USB_KEY);
+    }
+
+    //AC按键处理事件
+    /* check whether the button is pressed */
+    if(RESET == AC_KEY)
+    {
+        delay_1ms(100);  //加这个延时是否会有问题？
+
+        /* check whether the button is pressed */
+        if(RESET == AC_KEY)
+        {
+            //加入处理事件
+        }
+        while(RESET == AC_KEY);
+    }
+}

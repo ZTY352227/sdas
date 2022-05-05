@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "keil编译",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/BuildKeil.exe",
+            "args": [
+                "E:\\Program Files\\Keil_v5\\UV4",		//这里修改成自己keil5的路径
+                "${workspaceFolder}\\GD32E503V_EVAL",	//这里修改成相应的工程文件名
+                "${workspaceFolder}\\Objects\\build_log.log"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal"
+        }
+    ]
+}
